@@ -10,6 +10,7 @@ description: >
 Read this first: [Important Info](/docs/getting-started/#important-info)
 {{% /alert %}}
 
+
 ## Parts for the Robot and the Charging Station
 
 | Name                               | Description                                                                                                                   | Quantity Required | Source Link                                                                          | Notes                                                                                                                                      |
@@ -22,6 +23,7 @@ Read this first: [Important Info](/docs/getting-started/#important-info)
 | USB Wi-Fi Dongle (Optional)         | For better Wi-Fi reception                                                                                                     | 0                 |                                                                                      | Check for Linux Support                                                                                                                    |
 | Left-Angle USB adapter (Optional)  | If you want to keep Wi-Fi dongle inside the mower. RPi USB is really close to the mower side wall                              | 0                 | [Amazon](https://amzn.to/3ukNAIj) or your local hardware store                       | The kit contains the wire to connect external USB port. That may be enough if Wi-Fi dongle is waterproof.                             |
 
+
 ## Parts for the GPS Base Station
 
 {{% alert title="Info" color="info" %}}
@@ -32,4 +34,3 @@ You only need a GPS base station if you don't have access to an external NTRIP s
 |-------------------------------------------------|---------------------------------------------------------------------------|-------------------|------------------------------------------------------------------------|-------|
 | Raspberry Pi<br />+ SD Card<br />+ Power Supply | You can basically use any Raspberry Pi for this. No special requirements. | 1                 | [RPi Locator](https://rpilocator.com/?cat=PI4&instock)                                |       |
 | Ardusimple RTK2B GPS + Antenna                  | Positioning system for the base station                                   | 1                 | [ArduSimple](https://www.ardusimple.com/product/simplertk2b-basic-starter-kit-ip65/) |       |
-
